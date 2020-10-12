@@ -1,0 +1,169 @@
+*{
+    margin: 0 20px 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+.grid-container-1 {
+    justify-items: space-evenly;
+    align-items: center;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: 1fr ;
+    grid-template-areas:
+      "box-a box-b box-c";
+  }
+
+  h1{
+      font-size: 50px;
+  }
+  #smiley{
+      height: 170px;
+      width: 175px;
+      border: whitesmoke 6px solid;
+      border-radius: 100px;
+  }
+
+  .box-b{
+      padding: 20px;
+      margin-bottom: 30px;
+      justify-self: center;
+  }
+  .box-b h2{
+    justify-items: center;
+  }
+  .grid-container-1{
+      background-color: blue;
+      color: white;
+      justify-content: space-around;
+      align-content: space-around;
+  }
+  .grid-container-1 > div box-b{
+      display: block;
+      max-width: 100%;
+  }
+
+  .section-1{
+      display: inline-grid;
+      grid-template-columns: 40% 60%;
+      grid-template-rows: 1fr;
+      grid-area: 'summary address';
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "summary summary address "
+      "Career Career education "
+      "Career Career skills "
+      "Career Career referances ";
+    
+  }
+  
+  .summary { grid-area: summary;
+    padding-top: 20px
+ }
+ .summary p{
+     padding-top: 20px;
+ }
+  
+  .address { 
+      display: flex;
+      grid-area: address;
+      padding-top: 30px;
+
+}
+
+.address ul li{
+    margin-top: 50px;
+}
+  
+  .Career { 
+      grid-area: Career; 
+       align-items: center; 
+       justify-content: stretch;
+       padding: 20px;
+       margin-top: -50px;
+       list-style: none;
+    }
+    .career ul{
+        list-style-type: none;
+
+    }
+
+  span{
+      color:Blue;
+      font-size: 12px;
+      font-weight: 800;
+  }
+  .education { 
+      grid-area: education; 
+      margin-left: 50px;
+      align-items: center;
+      justify-items: center;
+    }
+    .education ul li {
+        margin-left: 50px;
+        padding-top: 20px;
+        align-items: center;
+      justify-items: center;
+        list-style-type: none;
+    }
+    .ed{
+        margin-top: -20px;
+        padding-left: 30px;
+        justify-items: center;
+    }
+  
+  .skills { 
+      grid-area: skills; 
+      padding: 20px;
+      text-decoration: none;
+    }
+    .skills ul li {
+        text-decoration: none;
+        margin-left: 50px;
+    }
+  
+  .referances { 
+      grid-area: referances; 
+        padding-left: 20px;
+    }
+    .referances p{
+        margin-left: 100px;
+        padding-top: 30px;
+    }
+  
+  footer{
+    background-color: blue;
+    height: 50px;
+    list-style: none;
+    color: whitesmoke;
+    justify-content: center;
+  }
+.footer{
+    display: inline-flexbox;
+    background-color: blue;
+    text-decoration: none;
+    justify-content: space-around;
+
+}
+
+.footer ul{
+    margin: -50px;
+    list-style: none;
+    
+
+}
+.footer ul li{
+    display: inline;
+    padding: 20px
+    text-align: center;
+    justify-content: flex-end;
+}
