@@ -131,13 +131,12 @@ body{
         margin-left: 50px;
     }
   
-  .referances { 
-      grid-area: referances; 
-        padding-left: 20px;
+  .references {  
+        padding-left: px;
     }
-    .referances p{
+    .references p{
         margin-left: 100px;
-        padding-top: 30px;
+        padding-top: 10px;
     }
   
   footer{
@@ -156,7 +155,7 @@ body{
 }
 
 .footer ul{
-    margin: -50px;
+    margin: 10px;
     list-style: none;
     padding-top: 10px;
 
@@ -164,7 +163,26 @@ body{
 .footer ul li{
     display: inline;
     padding: 20px
-    text-align: center;
-    justify-content: flex-end;
-    padding-top: 10px;
+    /*
+    text-align center;
+    justify-content flex-end;
+    padding-top 10px;
+    */
 }
+/*
+@media (min-width: px){
+    .grid-container-1{
+        display: grid;
+        grid-template-columns: repeat(2 1fr);
+        grid-template-rows: repeat(6 1fr);
+        grid-template-areas: 
+        "Main main"
+        "Summary ."
+        "Address ."
+        "career ."
+        "education ."
+        "skills ."
+        "references .";
+    }
+}
+*/
