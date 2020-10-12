@@ -37,7 +37,7 @@ body{
     justify-items: center;
   }
   .grid-container-1{
-      background-color: blue;
+      background-color: #065446;
       color: white;
       justify-content: space-around;
       align-content: space-around;
@@ -141,7 +141,7 @@ body{
     }
   
   footer{
-    background-color: blue;
+      background-color: #065446;
     height: 50px;
     list-style: none;
     color: whitesmoke;
@@ -149,7 +149,7 @@ body{
   }
 .footer{
     display: inline-flexbox;
-    background-color: blue;
+    background-color: #64958f;
     text-decoration: none;
     justify-content: space-around;
 
@@ -158,7 +158,7 @@ body{
 .footer ul{
     margin: -50px;
     list-style: none;
-    
+    padding-top: 10px;
 
 }
 .footer ul li{
@@ -166,4 +166,5 @@ body{
     padding: 20px
     text-align: center;
     justify-content: flex-end;
+    padding-top: 10px;
 }
