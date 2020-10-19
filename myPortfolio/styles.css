@@ -5,13 +5,16 @@ Yellowish color - #fadcac
 other colors used Yellow and White
 */
 
+*{
+  margin: 0;
+  padding: 0;
+  max-width: 100vh;
+}
 body {
     font-family: permanent marker, Arial, Helvetica, sans-serif;
     background-repeat: no-repeat;
     background-image: linear-gradient( 160deg, #64958f,#065446);
-    background-size: 1600px 1000px;
-    width: 100vw;
-    height: 100vh;
+    max-width: auto;
   }
   
   .logo {

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cd-styles.css">
+    <title>Contact Me</title>
+</head>
+<body>
+    <form action="" method="post" class="STYLE-NAME">
+        <h1>Contact Form 
+            <span>Please fill all the texts in the fields.</span>
+        </h1>
+        <label>
+            <span>Your Name :</span>
+            <input id="name" type="text" name="name" placeholder="Your Full Name" />
+        </label>
+        
+        <label>
+            <span>Your Email :</span>
+            <input id="email" type="email" name="email" placeholder="Valid Email Address" />
+        </label><br>
+
+
+        <h4><span>How did you hear about me?</span></h4>
+      <div class="classmate">
+        <input type="checkbox" id="Classmate" name="Classmate" value="Classmate">
+        <label for="school"> Classmate</label><br>
+       <input type="checkbox" id="resume-sub" name="resume-sub" value="resume-sub">
+       <label for="employer"> Resume Submission</label><br>
+       <input type="checkbox" id="LinkedIn" name="LinkedIn" value="LinkedIn">
+       <label for="LinkedIn"> LinkedIn</label><br>
+       <input type="checkbox" id="Academy" name="Academy" value="Academy">
+       <label for="Academy"> Coding Academy Rec</label>
+      </div><br>
+
+        <div class="contacted">
+            <span>Would you like to be contacted :</span>
+            <input type="radio" id="Yes" name="Yes" value="Yes">
+            <label for="Yes">Yes</label><br>
+            <input type="radio" id="No" name="No" value="No">
+            <label for="No">No</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Undecided</label>
+        </div><br>
+
+        <div class="birth">
+            <span>*optional-Join our birthday wishlist* </span>
+            <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday">
+        </div><br>
+      
+        
+        <label>
+            <span>Message :</span>
+            <textarea id="message" name="message" placeholder="Comments"></textarea>
+        </label> 
+             
+         <label>
+            <span>&nbsp;</span> 
+            <input type="button" class="button" value="Submit" /> 
+        </label>    
+    </form>
+</body>
+</html>
